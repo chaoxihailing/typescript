@@ -5,4 +5,8 @@ class Startup {
     }
 }
 
-Startup.main()
+Startup.main();
+
+let x: [string, number];
+x = ["hellss", 10];
+// x = [10, "hello"];
