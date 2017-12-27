@@ -1,12 +1,18 @@
-class Startup {
-    public static main(): number {
-        console.log("hello world");
-        return 0;
-    }
-}
+import * as _ from "lodash";
+let hello = "hello";
+let world = "nodejs";
+let helloworld = hello + " " + world;
+console.log(helloworld);
 
-Startup.main();
+// var avariable = "Outer";
 
-let x: [string, number];
-x = ["hellss", 10];
-// x = [10, "hello"];
+// function afun() {
+//     var avariable = "middle";
+//     return _.map([3], function (e) {
+//         var avariable = "in";
+
+//         return [avariable, e].join(' ');
+//     });
+// }
+
+// console.log(afun());
